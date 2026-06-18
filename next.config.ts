@@ -1,4 +1,9 @@
 import type { NextConfig } from "next";
+import { initOpenNextCloudflareForDev } from "@opennextjs/cloudflare";
+
+// Makes Cloudflare bindings (e.g. the CONTENT KV namespace) available to
+// getCloudflareContext() during `next dev`. No-op for production builds.
+initOpenNextCloudflareForDev();
 
 const nextConfig: NextConfig = {
   images: {

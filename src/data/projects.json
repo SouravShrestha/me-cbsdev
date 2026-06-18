@@ -2,7 +2,7 @@
   {
     "slug": "we-track",
     "name": "We Track",
-    "description": "A self-hosted platform for tracking progress across locally stored video courses.",
+    "description": "A self-hosted learning platform for tracking progress across locally stored video courses.",
     "internalLink": "/projects/we-track",
     "github": {
       "href": "https://github.com/SouravShrestha/we-track",
@@ -33,13 +33,34 @@
       "Docker support"
     ],
     "stack": [
-      { "name": "Next.js", "icon": "NextjsIcon" },
-      { "name": "TypeScript", "icon": "TypescriptIcon" },
-      { "name": "SQLite", "icon": "SqliteIcon" },
-      { "name": "Docker", "icon": "DockerIcon" },
-      { "name": "Node.js", "icon": "NodejsIcon" },
-      { "name": "GitHub Actions", "icon": "GithubActionsIcon" },
-      { "name": "Cloudflare Pages", "icon": "CloudflarePagesIcon" }
+      {
+        "name": "Next.js",
+        "icon": "NextjsIcon"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypescriptIcon"
+      },
+      {
+        "name": "SQLite",
+        "icon": "SqliteIcon"
+      },
+      {
+        "name": "Docker",
+        "icon": "DockerIcon"
+      },
+      {
+        "name": "Node.js",
+        "icon": "NodejsIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "icon": "CloudflarePagesIcon"
+      }
     ],
     "platform": "Web"
   },
@@ -77,11 +98,26 @@
       "Offline access"
     ],
     "stack": [
-      { "name": "Next.js", "icon": "NextjsIcon" },
-      { "name": "TypeScript", "icon": "TypescriptIcon" },
-      { "name": "JSON", "icon": "JsonIcon" },
-      { "name": "GitHub Actions", "icon": "GithubActionsIcon" },
-      { "name": "Cloudflare Pages", "icon": "CloudflarePagesIcon" }
+      {
+        "name": "Next.js",
+        "icon": "NextjsIcon"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypescriptIcon"
+      },
+      {
+        "name": "JSON",
+        "icon": "JsonIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "icon": "CloudflarePagesIcon"
+      }
     ],
     "platform": "Web"
   },
@@ -118,12 +154,30 @@
       "Optimized image delivery"
     ],
     "stack": [
-      { "name": "Next.js", "icon": "NextjsIcon" },
-      { "name": "TypeScript", "icon": "TypescriptIcon" },
-      { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
-      { "name": "Cloudinary", "icon": "CloudinaryIcon" },
-      { "name": "GitHub Actions", "icon": "GithubActionsIcon" },
-      { "name": "Cloudflare Pages", "icon": "CloudflarePagesIcon" }
+      {
+        "name": "Next.js",
+        "icon": "NextjsIcon"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypescriptIcon"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "TailwindCSSIcon"
+      },
+      {
+        "name": "Cloudinary",
+        "icon": "CloudinaryIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "icon": "CloudflarePagesIcon"
+      }
     ],
     "platform": "Web"
   }

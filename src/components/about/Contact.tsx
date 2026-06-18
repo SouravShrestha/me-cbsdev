@@ -1,7 +1,12 @@
 import { MailIcon } from "@/components/icons";
-import { about, socialLinks } from "@/lib/about";
+import { getAbout, getSocialLinks } from "@/lib/about";
 
-export default function Contact() {
+export default async function Contact() {
+  const [about, socialLinks] = await Promise.all([
+    getAbout(),
+    getSocialLinks(),
+  ]);
+
   return (
     <div>
       <h3 className="text-sm font-medium text-zinc-700 dark:text-zinc-300">

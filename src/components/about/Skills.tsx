@@ -1,7 +1,9 @@
-import { skills } from "@/lib/about";
+import { getSkills } from "@/lib/about";
 import SectionHeading from "./SectionHeading";
 
-export default function Skills() {
+export default async function Skills() {
+  const skills = await getSkills();
+
   return (
     <section>
       <SectionHeading number="02" label="Skills" />

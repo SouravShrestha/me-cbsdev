@@ -1,13 +1,15 @@
 import { Metadata } from "next";
 import { ExternalLinkIcon } from "@/components/icons";
-import { projects } from "@/lib/projects";
+import { getProjects } from "@/lib/projects";
 import ProjectCard from "@/components/projects/ProjectCard";
 
 export const metadata: Metadata = {
   title: "Projects",
 };
 
-export default function ProjectsPage() {
+export default async function ProjectsPage() {
+  const projects = await getProjects();
+
   return (
     <div className="sm:px-8 mt-16 sm:mt-32">
       <div className="mx-auto w-full max-w-7xl lg:px-8">

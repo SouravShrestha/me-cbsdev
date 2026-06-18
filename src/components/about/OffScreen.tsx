@@ -1,7 +1,8 @@
-import { about } from "@/lib/about";
+import { getAbout } from "@/lib/about";
 import SectionHeading from "./SectionHeading";
 
-export default function OffScreen() {
+export default async function OffScreen() {
+  const about = await getAbout();
   const { number, label, title, spotifyUrl, chessUrl, chessHandle } =
     about.offScreen;
 

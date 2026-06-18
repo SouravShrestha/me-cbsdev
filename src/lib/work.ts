@@ -1,6 +1,7 @@
 import type { StaticImageData } from "next/image";
 import workData from "@/data/work.json";
 import { getImage } from "@/lib/image-map";
+import { loadContent } from "@/lib/content";
 
 export type Work = {
   company: string;
@@ -15,9 +16,12 @@ export type Work = {
   height: number;
 };
 
-export const works: Work[] = (
-  workData as (Omit<Work, "logo"> & { logo: string })[]
-).map((work) => ({
-  ...work,
-  logo: getImage(work.logo)!,
-}));
+type RawWork = Omit<Work, "logo"> & { logo: string };
+
+export async function getWorks(): Promise<Work[]> {
+  const data = await loadContent("work", workData as RawWork[]);
+  return data.map((work) => ({
+    ...work,
+    logo: getImage(work.logo)!,
+  }));
+}

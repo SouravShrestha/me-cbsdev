@@ -2,44 +2,113 @@
   {
     "category": "Backend",
     "items": [
-      { "name": ".NET", "icon": "DotNetIcon" },
-      { "name": "ASP.NET Web API", "icon": "AspNetCoreIcon" },
-      { "name": "Entity Framework", "icon": "EntityFrameworkIcon" },
-      { "name": "C#", "icon": "CSharpIcon" },
-      { "name": "PowerShell", "icon": "PowerShellIcon" },
-      { "name": "Python", "icon": "PythonIcon" }
+      {
+        "name": ".NET",
+        "icon": "DotNetIcon"
+      },
+      {
+        "name": "ASP.NET Web API",
+        "icon": "AspNetCoreIcon"
+      },
+      {
+        "name": "Entity Framework",
+        "icon": "EntityFrameworkIcon"
+      },
+      {
+        "name": "C#",
+        "icon": "CSharpIcon"
+      },
+      {
+        "name": "PowerShell",
+        "icon": "PowerShellIcon"
+      },
+      {
+        "name": "Python",
+        "icon": "PythonIcon"
+      }
     ]
   },
   {
     "category": "Database & DevOps",
     "items": [
-      { "name": "SQL Server", "icon": "SqlServerIcon" },
-      { "name": "SQLite", "icon": "SqliteIcon" },
-      { "name": "GitHub Actions", "icon": "GithubActionsIcon" },
-      { "name": "Azure DevOps", "icon": "AzureDevOpsIcon" },
-      { "name": "TeamCity", "icon": "TeamCityIcon" },
-      { "name": "Octopus Deploy", "icon": "OctopusDeployIcon" }
+      {
+        "name": "SQL Server",
+        "icon": "SqlServerIcon"
+      },
+      {
+        "name": "SQLite",
+        "icon": "SqliteIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      },
+      {
+        "name": "Azure DevOps",
+        "icon": "AzureDevOpsIcon"
+      },
+      {
+        "name": "TeamCity",
+        "icon": "TeamCityIcon"
+      },
+      {
+        "name": "Octopus Deploy",
+        "icon": "OctopusDeployIcon"
+      }
     ]
   },
   {
     "category": "Tools & Practices",
     "items": [
-      { "name": "Git", "icon": "GitIcon" },
-      { "name": "Visual Studio", "icon": "VisualStudioIcon" },
-      { "name": "ServiceNow", "icon": "ServiceNowIcon" },
-      { "name": "UiPath", "icon": "UiPathIcon" },
-      { "name": "Elasticsearch", "icon": "ElasticsearchIcon" },
-      { "name": "Docker", "icon": "DockerIcon" },
-      { "name": "Kubernetes", "icon": "KubernetesIcon" },
-      { "name": "Active Directory", "icon": "ActiveDirectoryIcon" },
-      { "name": "Agile", "icon": "AgileIcon" }
+      {
+        "name": "Git",
+        "icon": "GitIcon"
+      },
+      {
+        "name": "Visual Studio",
+        "icon": "VisualStudioIcon"
+      },
+      {
+        "name": "ServiceNow",
+        "icon": "ServiceNowIcon"
+      },
+      {
+        "name": "UiPath",
+        "icon": "UiPathIcon"
+      },
+      {
+        "name": "Elasticsearch",
+        "icon": "ElasticsearchIcon"
+      },
+      {
+        "name": "Docker",
+        "icon": "DockerIcon"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "KubernetesIcon"
+      },
+      {
+        "name": "Active Directory",
+        "icon": "ActiveDirectoryIcon"
+      },
+      {
+        "name": "Agile",
+        "icon": "AgileIcon"
+      }
     ]
   },
   {
     "category": "AI Tools",
     "items": [
-      { "name": "Claude", "icon": "ClaudeIcon" },
-      { "name": "GitHub Copilot", "icon": "GithubCopilotIcon" }
+      {
+        "name": "Claude",
+        "icon": "ClaudeIcon"
+      },
+      {
+        "name": "GitHub Copilot",
+        "icon": "GithubCopilotIcon"
+      }
     ]
   }
 ]

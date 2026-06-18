@@ -12,8 +12,20 @@ binding = "ASSETS"
 [vars]
 NEXT_PUBLIC_ENV = "PROD"
 
+# Content store: portfolio JSON is read from KV at runtime so edits don't
+# require a redeploy. Create the namespaces in the Cloudflare dashboard and
+# paste their IDs below. Seed/update entries via the dashboard or
+# `npm run sync:content`.
+[[kv_namespaces]]
+binding = "CONTENT"
+id = "6aa4c694c9de49f1a2c640c8f088f019"
+
 [env.test]
 name = "cbsdev-test"
 
 [env.test.vars]
 NEXT_PUBLIC_ENV = "TEST"
+
+[[env.test.kv_namespaces]]
+binding = "CONTENT"
+id = "c13fa51941384fe1b869d496d4f624cd"

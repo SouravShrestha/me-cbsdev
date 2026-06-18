@@ -1,4 +1,5 @@
 import articlesData from '@/data/articles.json';
+import { loadContent } from '@/lib/content';
 
 export interface Article {
   title: string;
@@ -8,10 +9,10 @@ export interface Article {
 }
 
 export async function getArticles(): Promise<Article[]> {
-  // Return the local JSON data directly, sorted by newest first
-  const sortedArticles = [...(articlesData as Article[])].sort((a, b) => {
+  const articles = await loadContent<Article[]>('articles', articlesData as Article[]);
+
+  // Sort newest first.
+  return [...articles].sort((a, b) => {
     return new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime();
   });
-  
-  return sortedArticles;
 }
