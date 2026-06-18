@@ -1,0 +1,55 @@
+/*
+ * Centralized color tokens for the whole site.
+ *
+ * Everything that has a color reads from one of these CSS variables, so the
+ * entire look of the site can be changed from this single file. The theme
+ * changer in the navbar only toggles the `.dark` class on <html>, which swaps
+ * the base palette below.
+ *
+ * To recolor the site: edit the values here. To change the accent, edit the
+ * `--accent*` values in both blocks.
+ */
+
+/* ---------------------------------------------------------------- *
+ * Light mode (default)
+ * ---------------------------------------------------------------- */
+:root {
+  --background: #fafafa; /* page background        */
+  --primary: #1e1e21;
+  --surface: #ffffff; /* cards / nav pill       */
+  --surface-muted: #f4f4f5; /* subtle filled chips    */
+  --foreground: #27272a; /* primary text           */
+  --muted: #52525b; /* secondary text         */
+  --faint: #52525b; /* tertiary text          */
+  --border: #e4e4e7; /* hairlines / dividers   */
+  --ring: rgb(24 24 27 / 0.05); /* card ring              */
+
+  --accent: #7f5dde; /* accent / links         */
+  --accent-hover: #7f5dde;
+  --accent-soft: rgb(6 182 212 / 0.1);
+
+  --grid-line: rgb(24 24 27 / 0.045); /* decorative background grid */
+  --glow: rgb(127 93 222 / 0.16); /* soft accent glow blobs     */
+}
+
+/* ---------------------------------------------------------------- *
+ * Dark mode
+ * ---------------------------------------------------------------- */
+.dark {
+  --background: #000000;
+  --primary: #1e1e21;
+  --surface: #18181b;
+  --surface-muted: #27272a;
+  --foreground: #f4f4f5;
+  --muted: #a1a1aa;
+  --faint: #71717a;
+  --border: #27272a;
+  --ring: rgb(255 255 255 / 0.1);
+
+  --accent: #7f5dde;
+  --accent-hover: #6f4dbf;
+  --accent-soft: rgb(34 211 238 / 0.1);
+
+  --grid-line: rgb(255 255 255 / 0.04); /* decorative background grid */
+  --glow: rgb(127 93 222 / 0.2); /* soft accent glow blobs     */
+}

@@ -1,0 +1,22 @@
+{
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/souravshrestha",
+      "icon": "GitHubIcon",
+      "ariaLabel": "Follow on GitHub"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/sourav-shrestha-10992710b",
+      "icon": "LinkedInIcon",
+      "ariaLabel": "Follow on LinkedIn"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/sourav__shrestha",
+      "icon": "InstagramIcon",
+      "ariaLabel": "Follow on Instagram"
+    }
+  ]
+}
