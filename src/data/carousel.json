@@ -1,0 +1,6 @@
+[
+  { "id": 1, "label": "Nepal", "rotate": "rotate-2", "emoji": "🇳🇵", "image": "nepal" },
+  { "id": 2, "label": "India", "rotate": "-rotate-2", "emoji": "🇮🇳", "image": "india" },
+  { "id": 3, "label": "Australia", "rotate": "rotate-2", "emoji": "🇦🇺", "image": "australia" },
+  { "id": 4, "label": "Thailand", "rotate": "-rotate-2", "emoji": "🇹🇭", "image": "thailand" }
+]

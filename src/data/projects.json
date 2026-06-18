@@ -1,0 +1,130 @@
+[
+  {
+    "slug": "we-track",
+    "name": "We Track",
+    "description": "A self-hosted platform for tracking progress across locally stored video courses.",
+    "internalLink": "/projects/we-track",
+    "github": {
+      "href": "https://github.com/SouravShrestha/we-track",
+      "label": "SouravShrestha/we-track"
+    },
+    "externalLink": {
+      "href": "https://wetrack.cbsdev.me",
+      "label": "wetrack.cbsdev.me"
+    },
+    "badge": {
+      "label": "Open Source",
+      "type": "opensource"
+    },
+    "logo": "wetrack",
+    "about": [
+      "We Track helps learners organize and track progress across video-based courses stored on their local machine.",
+      "The application automatically scans course folders, reads video metadata, and stores progress, notes, and tags in a local SQLite database.",
+      "Designed with privacy in mind, everything runs offline with no cloud services or accounts required."
+    ],
+    "features": [
+      "Automatic course folder scanning",
+      "Video progress tracking",
+      "Resume from last watched video",
+      "Video-specific notes",
+      "Course tagging and organization",
+      "Automatic cleanup of missing files",
+      "Offline-first experience",
+      "Docker support"
+    ],
+    "stack": [
+      { "name": "Next.js", "icon": "NextjsIcon" },
+      { "name": "TypeScript", "icon": "TypescriptIcon" },
+      { "name": "SQLite", "icon": "SqliteIcon" },
+      { "name": "Docker", "icon": "DockerIcon" },
+      { "name": "Node.js", "icon": "NodejsIcon" },
+      { "name": "GitHub Actions", "icon": "GithubActionsIcon" },
+      { "name": "Cloudflare Pages", "icon": "CloudflarePagesIcon" }
+    ],
+    "platform": "Web"
+  },
+  {
+    "slug": "q-and-a-guru",
+    "name": "Q&A Guru",
+    "description": "A searchable knowledge base for programming concepts and technical interview preparation.",
+    "internalLink": "/projects/q-and-a-guru",
+    "github": {
+      "href": "https://github.com/SouravShrestha/q-and-a-guru",
+      "label": "SouravShrestha/q-and-a-guru"
+    },
+    "externalLink": {
+      "href": "https://qnaguru.cbsdev.me",
+      "label": "qnaguru.cbsdev.me"
+    },
+    "badge": {
+      "label": "Open Source",
+      "type": "opensource"
+    },
+    "logo": "qnaguru",
+    "about": [
+      "Q&A Guru is a lightweight reference tool for developers and job seekers preparing for technical interviews.",
+      "It provides a fast and searchable collection of programming questions, answers, and code examples organized by topic.",
+      "All content is stored locally in JSON files, making the application fast, simple, and available offline."
+    ],
+    "features": [
+      "Topic-based sidebar navigation",
+      "Instant keyword search",
+      "Search term highlighting",
+      "Expandable and collapsible answers",
+      "Collapse all answers with a single click",
+      "Syntax-highlighted code examples",
+      "Responsive design",
+      "Offline access"
+    ],
+    "stack": [
+      { "name": "Next.js", "icon": "NextjsIcon" },
+      { "name": "TypeScript", "icon": "TypescriptIcon" },
+      { "name": "JSON", "icon": "JsonIcon" },
+      { "name": "GitHub Actions", "icon": "GithubActionsIcon" },
+      { "name": "Cloudflare Pages", "icon": "CloudflarePagesIcon" }
+    ],
+    "platform": "Web"
+  },
+  {
+    "slug": "kriva-pictures",
+    "name": "Kriva Pictures",
+    "description": "A photography business website showcasing visual stories, galleries, and creative work.",
+    "internalLink": "/projects/kriva-pictures",
+    "externalLink": {
+      "href": "https://www.krivapictures.com.au",
+      "label": "krivapictures.com.au"
+    },
+    "github": {
+      "href": "https://github.com/SouravShrestha/kriva-pictures",
+      "label": "SouravShrestha/kriva-pictures"
+    },
+    "badge": {
+      "label": "Business Website",
+      "type": "premium"
+    },
+    "logo": "krivapictures",
+    "about": [
+      "Kriva Pictures is a professional photography website built to showcase portfolios, galleries, and visual storytelling.",
+      "The platform provides a modern and responsive browsing experience across desktop and mobile devices.",
+      "It is optimized for fast image delivery and streamlined content management using Cloudinary."
+    ],
+    "features": [
+      "Photography portfolio showcase",
+      "Responsive gallery experience",
+      "Cloudinary-powered image management",
+      "SEO-friendly architecture",
+      "Multi-environment deployment workflow",
+      "Automated CI/CD pipelines",
+      "Optimized image delivery"
+    ],
+    "stack": [
+      { "name": "Next.js", "icon": "NextjsIcon" },
+      { "name": "TypeScript", "icon": "TypescriptIcon" },
+      { "name": "Tailwind CSS", "icon": "TailwindCSSIcon" },
+      { "name": "Cloudinary", "icon": "CloudinaryIcon" },
+      { "name": "GitHub Actions", "icon": "GithubActionsIcon" },
+      { "name": "Cloudflare Pages", "icon": "CloudflarePagesIcon" }
+    ],
+    "platform": "Web"
+  }
+]

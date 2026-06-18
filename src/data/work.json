@@ -1,0 +1,26 @@
+[
+  {
+    "company": "Infosys Limited . Danske Bank",
+    "role": ".NET FullStack Developer",
+    "startDate": "12 / 2023",
+    "endDate": "Present",
+    "dateTimeStart": "2023-11",
+    "dateTimeEnd": "Present",
+    "logo": "dotnet",
+    "link": "https://www.infosys.com/",
+    "width": 250,
+    "height": 299
+  },
+  {
+    "company": "Infosys Limited . Reckitt",
+    "role": "RPA Developer",
+    "startDate": "06 / 2019",
+    "endDate": "11 / 2023",
+    "dateTimeStart": "2019-06",
+    "dateTimeEnd": "2023-11",
+    "logo": "uipath",
+    "link": "https://www.infosys.com/",
+    "width": 200,
+    "height": 200
+  }
+]

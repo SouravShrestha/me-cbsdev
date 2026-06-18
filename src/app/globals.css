@@ -1,0 +1,130 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* All color tokens live in theme.css so they can be edited in one place
+   and swapped at runtime by the theme changer. */
+@import "./theme.css";
+
+/* Expose the color tokens as Tailwind utilities, e.g. bg-background,
+   text-foreground, text-accent, border-border, ring-ring, bg-surface ... */
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: light dark;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Allow horizontal scrolling without showing a scrollbar (used by the
+   image carousel on small screens). */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE / old Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome / Safari */
+}
+
+body {
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.loading-bar {
+  position: fixed;
+  inset: 0 0 auto 0; /* pin to the top edge, full width */
+  z-index: 100;
+  height: 3px;
+  pointer-events: none;
+}
+
+.gradient-loader {
+  height: 100%;
+  border-radius: 0 9999px 9999px 0;
+  background-image: linear-gradient(
+    to right,
+    var(--accent),
+    #a855f7 /* purple-500 */,
+    #ec4899 /* pink-500 */
+  );
+  background-size: 200% 100%;
+  animation: gradiant-move 1.2s ease-in-out infinite;
+}
+
+@keyframes gradiant-move {
+  0% {
+    width: 0%;
+    background-position: 0% 0;
+  }
+  50% {
+    width: 70%;
+    background-position: 100% 0;
+  }
+  100% {
+    width: 100%;
+    background-position: 0% 0;
+  }
+}
+
+.bg-decor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70vh; /* top band only; the page scrolls past it */
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bg-grid {
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(to right, var(--grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--grid-line) 1px, transparent 1px);
+  background-size: 56px 56px;
+  /* Fade the grid out toward the bottom so it reads as a subtle accent
+     behind the header/hero rather than a full-page texture. */
+  -webkit-mask-image: linear-gradient(to bottom, #000 0%, transparent 75%);
+  mask-image: linear-gradient(to bottom, #000 0%, transparent 75%);
+}
+
+/* Respect users who prefer reduced motion. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
