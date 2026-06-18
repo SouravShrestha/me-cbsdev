@@ -1,8 +1,10 @@
 import Image from "next/image";
 import { BriefcaseIcon, ArrowDownIcon } from "@/components/icons";
-import { works } from "@/lib/work";
+import { getWorks } from "@/lib/work";
 
-export default function Work() {
+export default async function Work() {
+  const works = await getWorks();
+
   return (
     <div className="order-1 space-y-10 lg:pl-16 xl:pl-24">
       <div className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">

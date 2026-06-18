@@ -3,6 +3,7 @@ import React from "react";
 import projectsData from "@/data/projects.json";
 import { getIcon } from "@/lib/icon-map";
 import { getImage } from "@/lib/image-map";
+import { loadContent } from "@/lib/content";
 
 export type Project = {
   slug: string;
@@ -26,13 +27,14 @@ type RawProject = Omit<Project, "logo" | "stack"> & {
   stack: { name: string; icon: string }[];
 };
 
-export const projects: Project[] = (projectsData as RawProject[]).map(
-  (project) => ({
+export async function getProjects(): Promise<Project[]> {
+  const data = await loadContent("projects", projectsData as RawProject[]);
+  return data.map((project) => ({
     ...project,
     logo: getImage(project.logo)!,
     stack: project.stack.map((tech) => ({
       name: tech.name,
       icon: getIcon(tech.icon)!,
     })),
-  }),
-);
+  }));
+}

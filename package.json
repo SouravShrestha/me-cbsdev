@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "pull:content": "node scripts/pull-content.mjs",
+    "pull:content:test": "node scripts/pull-content.mjs test"
   },
   "dependencies": {
     "@headlessui/react": "^2.2.10",

@@ -1,6 +1,8 @@
-import { about } from "@/lib/about";
+import { getAbout } from "@/lib/about";
 
-export default function Intro() {
+export default async function Intro() {
+  const about = await getAbout();
+
   return (
     <div>
       <h1 className="text-3xl font-semibold text-zinc-800 sm:text-5xl dark:text-zinc-100 leading-10 sm:leading-14">

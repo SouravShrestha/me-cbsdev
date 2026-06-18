@@ -1,8 +1,10 @@
 import { ExternalLinkIcon } from "@/components/icons";
-import { certifications } from "@/lib/about";
+import { getCertifications } from "@/lib/about";
 import SectionHeading from "./SectionHeading";
 
-export default function Certifications() {
+export default async function Certifications() {
+  const certifications = await getCertifications();
+
   return (
     <section>
       <SectionHeading number="03" label="Certifications & Badges" />
