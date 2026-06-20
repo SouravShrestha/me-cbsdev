@@ -16,7 +16,7 @@ export default function ProjectHeader({ project }: { project: Project }) {
           />
         </div>
         <div>
-          <h1 className="text-3xl font-semibold text-zinc-800 sm:text-5xl dark:text-zinc-100 leading-10 sm:leading-14">
+          <h1 className="text-3xl font-semibold text-zinc-800 sm:text-4xl dark:text-zinc-100 leading-10 sm:leading-14">
             {project.name}
           </h1>
           <ProjectBadge badge={project.badge} className="mt-2" />

@@ -35,7 +35,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             href={project.externalLink.href}
             target="_blank"
             rel="noreferrer"
-            className="relative z-30 flex items-center text-zinc-400 transition hover:text-accent-hover dark:text-zinc-200"
+            className="relative z-30 flex items-center text-zinc-500 transition hover:text-accent-hover dark:text-zinc-200"
           >
             <ExternalLinkIcon className="h-4 w-4 flex-none" />
             <span className="ml-2 truncate">{project.externalLink.label}</span>
@@ -46,7 +46,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             href={project.github.href}
             target="_blank"
             rel="noreferrer"
-            className="relative z-30 flex items-center gap-2 text-zinc-400 transition hover:text-accent-hover dark:text-zinc-200"
+            className="relative z-30 flex items-center gap-2 text-zinc-500 transition hover:text-accent-hover dark:text-zinc-200"
           >
             <GitHubIcon className="h-4 w-4 flex-none fill-current" />
             <span className="truncate">{project.github.label}</span>

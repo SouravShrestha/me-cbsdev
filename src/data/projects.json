@@ -1,5 +1,62 @@
 [
   {
+    "slug": "e4",
+    "name": "e4",
+    "description": "A tiny, no-fuss chess board that thinks right alongside you. You play your side, it whispers a strong move whenever you want one.",
+    "internalLink": "/projects/e4",
+    "github": {
+      "href": "https://github.com/SouravShrestha/e4",
+      "label": "SouravShrestha/e4"
+    },
+    "externalLink": {
+      "href": "https://e4.cbsdev.me",
+      "label": "e4.cbsdev.me"
+    },
+    "badge": {
+      "label": "Open Source",
+      "type": "opensource"
+    },
+    "logo": "e4",
+    "about": [
+      "A tiny, no-fuss chess board that thinks right alongside you. It's your personal coach. You play your side, it whispers a strong move whenever you want one - all in your browser, no sign-ups, no nonsense.",
+      "Named after chess's most famous opening move. (Yes, the pun is on purpose.)",
+      "The 'brain' is Stockfish, one of the strongest chess engines on the planet, shrunk down to run on a web page."
+    ],
+    "features": [
+      "Hints for your side, a little arrow points you toward a strong move whenever you're stuck",
+      "Follow any game, enter your opponent's moves yourself and keep getting nudges for your replies",
+      "A real engine in your pocket, Stockfish runs right inside your browser",
+      "Five difficulty levels, from \"gentle nudge\" to \"okay, it's actually good now\"",
+      "Rewind anytime, step back and forth through every move you've played",
+      "Themes & dark mode, make it feel like yours",
+      "Satisfying click-clacks, sounds for moves, captures, and checks",
+      "Phone or laptop, it just fits"
+    ],
+    "stack": [
+      {
+        "name": "Next.js",
+        "icon": "NextjsIcon"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypescriptIcon"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "TailwindCSSIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "icon": "CloudflarePagesIcon"
+      }
+    ],
+    "platform": "Web"
+  },
+  {
     "slug": "we-track",
     "name": "We Track",
     "description": "A self-hosted learning platform for tracking progress across locally stored video courses.",
