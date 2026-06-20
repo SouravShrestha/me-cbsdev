@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.2.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.1.0...v1.2.0) (2026-06-20)
+
+
+### Features
+
+* added e4 project details and minor design changes (merge pull request [#5](https://github.com/SouravShrestha/me-cbsdev/issues/5) from f/add-e4-details) ([7bbd1c1](https://github.com/SouravShrestha/me-cbsdev/commit/7bbd1c1f3954883e5732c9c6aa8e8506b60d9432))
+* added e4 project details and minor design changes. ([7bbd1c1](https://github.com/SouravShrestha/me-cbsdev/commit/7bbd1c1f3954883e5732c9c6aa8e8506b60d9432))
+* added e4 project details and minor design changes. ([d7da123](https://github.com/SouravShrestha/me-cbsdev/commit/d7da12384baa9a109df30cad0f18e88ba6683660))
+
 ## [1.1.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.0.0...v1.1.0) (2026-06-18)
 
 
