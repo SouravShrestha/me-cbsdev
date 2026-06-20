@@ -27,6 +27,15 @@ export default function Hero() {
                 <br />
                 I&apos;m building{" "}
                 <a
+                  href="https://github.com/SouravShrestha/e4"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-zinc-900 hover:underline dark:text-zinc-100"
+                >
+                  e4!
+                </a>
+                {", "}
+                <a
                   href="https://github.com/SouravShrestha/we-track"
                   target="_blank"
                   rel="noreferrer"
@@ -34,16 +43,7 @@ export default function Hero() {
                 >
                   we-track
                 </a>
-                ,{" "}
-                <a
-                  href="https://github.com/SouravShrestha/q-and-a-guru"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-semibold text-zinc-900 hover:underline dark:text-zinc-100"
-                >
-                  q-and-a-guru
-                </a>{" "}
-                and other cool{" "}
+                , and other cool{" "}
                 <Link
                   href="/projects"
                   className="font-semibold text-zinc-900 hover:underline dark:text-zinc-100"
