@@ -57,6 +57,60 @@
     "platform": "Web"
   },
   {
+    "slug": "q-pilot",
+    "name": "Q Pilot",
+    "description": "An AI-powered question generator that creates interview questions from any topic or technology.",
+    "internalLink": "/projects/q-pilot",
+    "github": {
+      "href": "https://github.com/SouravShrestha/qpilot-app",
+      "label": "SouravShrestha/qpilot-app"
+    },
+    "externalLink": {
+      "href": "https://qpilot.cbsdev.me",
+      "label": "qpilot.cbsdev.me"
+    },
+    "badge": {
+      "label": "Open Source",
+      "type": "opensource"
+    },
+    "logo": "qpilot",
+    "about": [
+      "QPilot helps developers, interviewers, educators, and learners generate high-quality questions on demand.",
+      "Users can provide a technology or concepts and instantly receive tailored questions with varying difficulty levels.",
+      "Built to streamline interview preparation, QPilot removes the manual effort of researching and writing questions."
+    ],
+    "features": [
+      "AI-powered question generation",
+      "Generate questions from topics",
+      "Multiple difficulty levels",
+      "Favorites and organize questions",
+      "Dark and light theme support"
+    ],
+    "stack": [
+      {
+        "name": "Next.js",
+        "icon": "NextjsIcon"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypescriptIcon"
+      },
+      {
+        "name": "JSON",
+        "icon": "JsonIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "icon": "CloudflarePagesIcon"
+      }
+    ],
+    "platform": "Web"
+  },
+  {
     "slug": "we-track",
     "name": "We Track",
     "description": "A self-hosted learning platform for tracking progress across locally stored video courses.",
@@ -109,63 +163,6 @@
       {
         "name": "Node.js",
         "icon": "NodejsIcon"
-      },
-      {
-        "name": "GitHub Actions",
-        "icon": "GithubActionsIcon"
-      },
-      {
-        "name": "Cloudflare Pages",
-        "icon": "CloudflarePagesIcon"
-      }
-    ],
-    "platform": "Web"
-  },
-  {
-    "slug": "q-and-a-guru",
-    "name": "Q&A Guru",
-    "description": "A searchable knowledge base for programming concepts and technical interview preparation.",
-    "internalLink": "/projects/q-and-a-guru",
-    "github": {
-      "href": "https://github.com/SouravShrestha/q-and-a-guru",
-      "label": "SouravShrestha/q-and-a-guru"
-    },
-    "externalLink": {
-      "href": "https://qnaguru.cbsdev.me",
-      "label": "qnaguru.cbsdev.me"
-    },
-    "badge": {
-      "label": "Open Source",
-      "type": "opensource"
-    },
-    "logo": "qnaguru",
-    "about": [
-      "Q&A Guru is a lightweight reference tool for developers and job seekers preparing for technical interviews.",
-      "It provides a fast and searchable collection of programming questions, answers, and code examples organized by topic.",
-      "All content is stored locally in JSON files, making the application fast, simple, and available offline."
-    ],
-    "features": [
-      "Topic-based sidebar navigation",
-      "Instant keyword search",
-      "Search term highlighting",
-      "Expandable and collapsible answers",
-      "Collapse all answers with a single click",
-      "Syntax-highlighted code examples",
-      "Responsive design",
-      "Offline access"
-    ],
-    "stack": [
-      {
-        "name": "Next.js",
-        "icon": "NextjsIcon"
-      },
-      {
-        "name": "TypeScript",
-        "icon": "TypescriptIcon"
-      },
-      {
-        "name": "JSON",
-        "icon": "JsonIcon"
       },
       {
         "name": "GitHub Actions",
