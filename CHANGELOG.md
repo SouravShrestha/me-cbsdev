@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.2.0...v1.3.0) (2026-06-24)
+
+
+### Features
+
+* replace Q&A Guru project with Q Pilot in portfolio data and image ([19beae3](https://github.com/SouravShrestha/me-cbsdev/commit/19beae30b352fc07b4d655058b1f07d35e5665bb))
+* replace Q&A Guru project with Q Pilot in portfolio data and image mapping ([c1eb838](https://github.com/SouravShrestha/me-cbsdev/commit/c1eb838b21d12a0a4b1184291913ff891cea519b))
+
 ## [1.2.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.1.0...v1.2.0) (2026-06-20)
 
 
