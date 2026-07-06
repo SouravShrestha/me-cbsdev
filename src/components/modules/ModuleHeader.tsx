@@ -15,7 +15,7 @@ export default function ModuleHeader({ pkg }: { pkg: Module }) {
           {pkg.name}
         </h1>
         <div className="flex items-center gap-2 mt-1.5 flex-wrap self-center">
-          <span className="inline-flex items-center rounded-full bg-red-50 px-2.5 py-1 text-xs font-mono font-medium text-red-600 ring-1 ring-inset ring-red-200 dark:bg-red-400/10 dark:text-red-400 dark:ring-red-400/20">
+          <span className="inline-flex items-center rounded-full px-2.5 py-1 text-xs font-mono font-medium ring-1 ring-inset bg-accent/10 text-accent ring-accent/20">
             v{pkg.version}
           </span>
           {pkg.isCli && (
