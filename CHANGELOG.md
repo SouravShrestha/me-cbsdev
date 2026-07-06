@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.3.0...v1.4.0) (2026-07-06)
+
+
+### Features
+
+* add npm modules showcase with individual module pages ([521ecfc](https://github.com/SouravShrestha/me-cbsdev/commit/521ecfca0cb09686d4f9aa4c438cf4470f35baa5))
+
 ## [1.3.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.2.0...v1.3.0) (2026-06-24)
 
 
