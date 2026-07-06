@@ -2,6 +2,7 @@ import Image from "next/image";
 import { BriefcaseIcon, ArrowDownIcon } from "@/components/icons";
 import { getWorks } from "@/lib/work";
 
+
 export default async function Work() {
   const works = await getWorks();
 
