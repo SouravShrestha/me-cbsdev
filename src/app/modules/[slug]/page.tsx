@@ -30,6 +30,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${mod.name} | Modules`,
     description: mod.description,
+    alternates: {
+      canonical: `https://cbsdev.me/modules/${mod.slug}`,
+    },
+    openGraph: {
+      title: `${mod.name} | Modules - Sourav Shrestha`,
+      description: mod.description,
+      url: `https://cbsdev.me/modules/${mod.slug}`,
+    },
   };
 }
 

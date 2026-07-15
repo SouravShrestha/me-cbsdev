@@ -30,6 +30,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${project.name} | Projects`,
     description: project.description,
+    alternates: {
+      canonical: `https://cbsdev.me/projects/${project.slug}`,
+    },
+    openGraph: {
+      title: `${project.name} | Projects - Sourav Shrestha`,
+      description: project.description,
+      url: `https://cbsdev.me/projects/${project.slug}`,
+    },
   };
 }
 

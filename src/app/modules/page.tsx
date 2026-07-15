@@ -5,6 +5,17 @@ import ModuleCard from "@/components/modules/ModuleCard";
 
 export const metadata: Metadata = {
   title: "Modules",
+  description:
+    "Open-source npm packages published by Sourav Shrestha — small, focused utilities designed to drop into any JavaScript or TypeScript project.",
+  alternates: {
+    canonical: "https://cbsdev.me/modules",
+  },
+  openGraph: {
+    title: "Modules - Sourav Shrestha",
+    description:
+      "Open-source npm packages published by Sourav Shrestha — small, focused utilities designed to drop into any JavaScript or TypeScript project.",
+    url: "https://cbsdev.me/modules",
+  },
 };
 
 export default async function ModulesPage() {

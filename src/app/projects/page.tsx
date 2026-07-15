@@ -5,6 +5,17 @@ import ProjectCard from "@/components/projects/ProjectCard";
 
 export const metadata: Metadata = {
   title: "Projects",
+  description:
+    "Open-source and personal projects by Sourav Shrestha — built to learn, experiment, and solve real problems.",
+  alternates: {
+    canonical: "https://cbsdev.me/projects",
+  },
+  openGraph: {
+    title: "Projects - Sourav Shrestha",
+    description:
+      "Open-source and personal projects by Sourav Shrestha — built to learn, experiment, and solve real problems.",
+    url: "https://cbsdev.me/projects",
+  },
 };
 
 export default async function ProjectsPage() {
