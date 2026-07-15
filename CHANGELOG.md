@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.4.0...v1.5.0) (2026-07-15)
+
+
+### Features
+
+* **seo:** add comprehensive SEO metadata and structured data ([d296150](https://github.com/SouravShrestha/me-cbsdev/commit/d2961504e23321338e54cfe5031bca994e45185f))
+
 ## [1.4.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.3.0...v1.4.0) (2026-07-06)
 
 
