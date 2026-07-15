@@ -70,6 +70,11 @@ export const metadata: Metadata = {
   robots: isProd
     ? { index: true, follow: true }
     : { index: false, follow: false },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-icon.png",
+  },
 };
 
 export default function RootLayout({
