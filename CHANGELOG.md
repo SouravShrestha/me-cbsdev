@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.5.0...v1.6.0) (2026-07-15)
+
+
+### Features
+
+* add favicon and update metadata icons configuration ([2cdff88](https://github.com/SouravShrestha/me-cbsdev/commit/2cdff8856441434b8499dda4a1962d45188ac001))
+
 ## [1.5.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.4.0...v1.5.0) (2026-07-15)
 
 
