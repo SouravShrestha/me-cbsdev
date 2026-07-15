@@ -7,6 +7,7 @@ import ThemeScript from "@/components/theme/ThemeScript";
 import ScrollToTop from "@/components/layout/ScrollToTop";
 import LoadingBar from "@/components/layout/LoadingBar";
 import BackgroundDecor from "@/components/layout/BackgroundDecor";
+import JsonLd from "@/components/seo/JsonLd";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,12 +19,57 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const BASE_URL = "https://cbsdev.me";
+const isProd = process.env.NEXT_PUBLIC_ENV === "PROD";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(BASE_URL),
   title: {
     template: "%s - Sourav Shrestha",
     default: "Sourav Shrestha aka CBS - Software Developer",
   },
-  description: "Portfolio of a passionate software developer",
+  description:
+    "Portfolio of Sourav Shrestha (CBS) — Specialist Programmer with 7+ years of experience in .NET, RPA, and scalable web applications.",
+  keywords: [
+    "Sourav Shrestha",
+    "CBS",
+    "software developer",
+    "full stack developer",
+    ".NET developer",
+    "RPA developer",
+    "portfolio",
+    "cbsdev",
+  ],
+  alternates: {
+    canonical: BASE_URL,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: BASE_URL,
+    siteName: "Sourav Shrestha — CBS",
+    title: "Sourav Shrestha aka CBS - Software Developer",
+    description:
+      "Portfolio of Sourav Shrestha (CBS) — Specialist Programmer with 7+ years of experience in .NET, RPA, and scalable web applications.",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Sourav Shrestha — CBS | Software Developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sourav Shrestha aka CBS - Software Developer",
+    description:
+      "Portfolio of Sourav Shrestha (CBS) — Specialist Programmer with 7+ years of experience in .NET, RPA, and scalable web applications.",
+    images: ["/og-image.png"],
+  },
+  robots: isProd
+    ? { index: true, follow: true }
+    : { index: false, follow: false },
 };
 
 export default function RootLayout({
@@ -47,6 +93,30 @@ export default function RootLayout({
         <ThemeScript />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} flex h-full bg-zinc-50 dark:bg-black`}>
+        <JsonLd
+          data={[
+            {
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Sourav Shrestha",
+              alternateName: "CBS",
+              url: BASE_URL,
+              jobTitle: "Specialist Programmer",
+              email: "souravshrestha@cbsdev.me",
+              sameAs: [
+                "https://github.com/souravshrestha",
+                "https://linkedin.com/in/sourav-shrestha-10992710b",
+                "https://www.instagram.com/sourav__shrestha",
+              ],
+            },
+            {
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Sourav Shrestha — CBS",
+              url: BASE_URL,
+            },
+          ]}
+        />
         <LoadingBar />
         <ScrollToTop />
         <div className="flex w-full">

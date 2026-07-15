@@ -9,6 +9,17 @@ import Certifications from "@/components/about/Certifications";
 
 export const metadata: Metadata = {
   title: "About",
+  description:
+    "Learn more about Sourav Shrestha (CBS) — a Specialist Programmer with 7+ years of experience, based in Bangalore. Passionate about building scalable apps and clean architectures.",
+  alternates: {
+    canonical: "https://cbsdev.me/about",
+  },
+  openGraph: {
+    title: "About - Sourav Shrestha",
+    description:
+      "Learn more about Sourav Shrestha (CBS) — a Specialist Programmer with 7+ years of experience, based in Bangalore.",
+    url: "https://cbsdev.me/about",
+  },
 };
 
 export default function AboutPage() {
