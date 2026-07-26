@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.6.0...v1.7.0) (2026-07-26)
+
+
+### Features
+
+* added chain-letter related changes ([0d4040e](https://github.com/SouravShrestha/me-cbsdev/commit/0d4040e407fbde76b450ed1c72383debc5c492bd))
+* **icons:** refactor icon components and update certification styles ([2c9a310](https://github.com/SouravShrestha/me-cbsdev/commit/2c9a31074dc1bc3ac89d206537b2e7d840e7e121))
+
 ## [1.6.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.5.0...v1.6.0) (2026-07-15)
 
 
