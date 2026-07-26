@@ -7,9 +7,17 @@
     "icon": "CredlyIcon"
   },
   {
-    "title": "AI Builder",
-    "issuer": "Infosys",
-    "details": "",
-    "icon": "InfosysIcon"
+    "title": "GH-300 GitHub Copilot",
+    "issuer": "GitHub",
+    "details": "AI",
+    "url": "https://learn.microsoft.com/api/credentials/share/en-us/souravshrestha/E11AE3D123A43452?sharingId=91338F796EC340E7",
+    "icon": "GithubCopilotIcon"
+  },
+  {
+    "title": "GH-900 GitHub Foundations",
+    "issuer": "GitHub",
+    "details": "DevOps",
+    "url": "https://learn.microsoft.com/api/credentials/share/en-us/souravshrestha/392DBCE62694A466?sharingId=91338F796EC340E7",
+    "icon": "GitHubIcon"
   }
 ]

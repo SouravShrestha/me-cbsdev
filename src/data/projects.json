@@ -176,6 +176,69 @@
     "platform": "Web"
   },
   {
+    "slug": "chain",
+    "name": "Chain",
+    "description": "A real-time 2-player word dueling game where players pick letters, form word chains, and race against a timer.",
+    "internalLink": "/projects/chain",
+    "github": {
+      "href": "https://github.com/SouravShrestha/chain-letters",
+      "label": "SouravShrestha/chain-letters"
+    },
+    "externalLink": {
+      "href": "https://chain.cbsdev.me",
+      "label": "chain.cbsdev.me"
+    },
+    "badge": {
+      "label": "Open Source",
+      "type": "opensource"
+    },
+    "logo": "chain",
+    "about": [
+      "Chain Letters is a real-time 2-player word dueling game. Each round, both players secretly pick a letter - one becomes the Start letter, the other the End letter.",
+      "Players then take turns submitting words that must begin with the Start letter and end with the End letter, building a chain under the pressure of a countdown timer.",
+      "Run out of time, submit an invalid word, and your opponent wins the round. Win the most rounds to take the match - best of 1, 3, or 5, host's choice."
+    ],
+    "features": [
+      "Real-time 2-player duels over a shared room code",
+      "Secret letter picking, one player's letter becomes Start, the other's becomes End",
+      "Word chain validation on every submission",
+      "Per-turn countdown timer, run out and your opponent wins the round",
+      "Best-of-1, 3, or 5 match format, set by the host",
+      "Live game state synced via Supabase Realtime"
+    ],
+    "stack": [
+      {
+        "name": "Next.js",
+        "icon": "NextjsIcon"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypescriptIcon"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "TailwindCSSIcon"
+      },
+      {
+        "name": "Supabase",
+        "icon": "SupabaseIcon"
+      },
+      {
+        "name": "Redis",
+        "icon": "RedisIcon"
+      },
+      {
+        "name": "Node.js",
+        "icon": "NodejsIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      }
+    ],
+    "platform": "Web"
+  },
+  {
     "slug": "kriva-pictures",
     "name": "Kriva Pictures",
     "description": "A photography business website showcasing visual stories, galleries, and creative work.",

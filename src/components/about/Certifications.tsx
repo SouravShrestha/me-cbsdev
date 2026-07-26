@@ -14,7 +14,7 @@ export default async function Certifications() {
           const CertContent = (
             <div className="flex items-start gap-4">
               <div className="flex h-10 w-10 flex-none items-center justify-center overflow-hidden rounded-md bg-white text-zinc-500 ring-1 ring-zinc-200 dark:ring-zinc-700/50">
-                <cert.icon className="h-7 w-7 text-zinc-500 dark:text-zinc-400" />
+                <cert.icon className="h-7 w-7 text-zinc-900 dark:text-zinc-900" />
               </div>
               <div className="flex-1 min-w-0">
                 <p className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
