@@ -10,5 +10,11 @@
     "link": "https://lex.infosysapps.com/web/en/app/social/blogs_v2/2d0d7f40-22aa-11f1-8395-d5847adb0fb3",
     "pubDate": "2026-03-18",
     "description": "Still manually sharing WPF builds? Set up ClickOnce to get one-click installs and automatic updates."
+  },
+  {
+    "title": "My Experience Learning and Passing the GH-900 (GitHub Foundations): What Helped, What Didn't, and What I'd Do Differently",
+    "link": "https://dev.to/souravshrestha/my-experience-learning-and-passing-the-gh-900-github-foundations-what-helped-what-didnt-and-4mef",
+    "pubDate": "2026-07-06",
+    "description": "I use GitHub every day, turns out that's not the same as knowing GitHub. My honest GH-900 prep experience, score, and lessons learned."
   }
 ]

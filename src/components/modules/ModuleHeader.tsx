@@ -34,7 +34,7 @@ export default function ModuleHeader({ pkg }: { pkg: Module }) {
       </p>
 
       <div className="mt-4 text-xs text-zinc-400 dark:text-zinc-500">
-        Published {published}
+        Updated {published}
       </div>
 
       <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-2 text-sm font-medium">

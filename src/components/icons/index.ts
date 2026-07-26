@@ -45,3 +45,5 @@ export { CheckIcon } from "./CheckIcon";
 export { ArrowLeftIcon } from "./ArrowLeftIcon";
 export { MailIcon } from "./MailIcon";
 export { CoffeeIcon } from "./CoffeeIcon";
+export { SupabaseIcon } from "./SupabaseIcon";
+export { RedisIcon } from "./RedisIcon";
