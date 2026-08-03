@@ -27,21 +27,21 @@ export default function Hero() {
                 <br />
                 I&apos;m building{" "}
                 <a
-                  href="https://github.com/SouravShrestha/e4"
+                  href="https://wordlock.cbsdev.me"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-zinc-900 hover:underline dark:text-zinc-100"
+                >
+                  word-lock
+                </a>
+                {", "}
+                <a
+                  href="https://e4.cbsdev.me"
                   target="_blank"
                   rel="noreferrer"
                   className="font-semibold text-zinc-900 hover:underline dark:text-zinc-100"
                 >
                   e4!
-                </a>
-                {", "}
-                <a
-                  href="https://github.com/SouravShrestha/we-track"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-semibold text-zinc-900 hover:underline dark:text-zinc-100"
-                >
-                  we-track
                 </a>
                 , and other cool{" "}
                 <Link

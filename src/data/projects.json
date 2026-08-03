@@ -239,6 +239,67 @@
     "platform": "Web"
   },
   {
+    "slug": "word-lock",
+    "name": "Word Lock",
+    "description": "A real-time 2-player word territory game where players take turns spelling words on a shared 5×5 letter grid - claiming tiles, flipping opponents' letters, and racing to dominate the board.",
+    "internalLink": "/projects/word-lock",
+    "github": {
+      "href": "https://github.com/SouravShrestha/word-lock",
+      "label": "SouravShrestha/word-lock"
+    },
+    "externalLink": {
+      "href": "https://wordlock.cbsdev.me",
+      "label": "wordlock.cbsdev.me"
+    },
+    "badge": {
+      "label": "Open Source",
+      "type": "opensource"
+    },
+    "logo": "wordlock",
+    "about": [
+      "Word Lock is a real-time 2-player word territory game where players compete on a shared 5×5 letter grid. Take turns spelling words to claim tiles, flip your opponent's letters, and dominate the board.",
+      "Every tile you use in a valid word becomes yours. Tiles your opponent owned flip to your colour. A tile surrounded on all sides by your own tiles is locked - your opponent can no longer steal it.",
+      "The game ends when every tile is claimed. Whoever owns the most tiles wins. Turns expire after 24 hours, keeping the game moving."
+    ],
+    "features": [
+      "Real-time 2-player word territory gameplay",
+      "Shared 5×5 letter grid with tile claiming mechanics",
+      "Flip opponent's tiles by spelling words through them",
+      "Lock tiles by surrounding them with your own",
+      "Turn-based gameplay with 24-hour turn expiration",
+      "Live game state synced via Supabase Realtime",
+      "Word validation with minimum 3-letter requirement",
+      "Winner determined by most tiles owned when board is full"
+    ],
+    "stack": [
+      {
+        "name": "Next.js",
+        "icon": "NextjsIcon"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypescriptIcon"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "TailwindCSSIcon"
+      },
+      {
+        "name": "Supabase",
+        "icon": "SupabaseIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "icon": "CloudflarePagesIcon"
+      }
+    ],
+    "platform": "Web"
+  },
+  {
     "slug": "kriva-pictures",
     "name": "Kriva Pictures",
     "description": "A photography business website showcasing visual stories, galleries, and creative work.",

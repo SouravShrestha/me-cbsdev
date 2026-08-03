@@ -11,6 +11,7 @@ import thailand from "@/images/thailand.webp";
 import uipath from "@/images/uipath.webp";
 import wetrack from "@/images/wetrack.png";
 import qpilot from "@/images/qpilot.png";
+import wordlock from "@/images/word-lock.png";
 
 /**
  * Maps the string `image`/`logo` keys used in `src/data/*.json` to their
@@ -31,6 +32,7 @@ export const imageMap: Record<string, StaticImageData> = {
   uipath,
   wetrack,
   qpilot,
+  wordlock
 };
 
 export type ImageKey = keyof typeof imageMap;

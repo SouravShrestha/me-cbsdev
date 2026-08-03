@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const BASE_URL = "https://cbsdev.me";
+const BASE_URL = "https://www.cbsdev.me";
 const isProd = process.env.NEXT_PUBLIC_ENV === "PROD";
 
 export const metadata: Metadata = {
