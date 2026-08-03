@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.7.0...v1.8.0) (2026-08-03)
+
+
+### Features
+
+* **projects:** add Word Lock project showcase ([eceee53](https://github.com/SouravShrestha/me-cbsdev/commit/eceee53ed9343ff16fad90eb74bd607cc34e41e4))
+* update project links and add word-lock showcase ([601c023](https://github.com/SouravShrestha/me-cbsdev/commit/601c0239ec6c5ec868c3fe1e55e902d754110b06))
+
 ## [1.7.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.6.0...v1.7.0) (2026-07-26)
 
 
