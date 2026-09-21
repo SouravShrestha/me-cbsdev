@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
@@ -21,6 +22,7 @@ const geistMono = Geist_Mono({
 
 const BASE_URL = "https://www.cbsdev.me";
 const isProd = process.env.NEXT_PUBLIC_ENV === "PROD";
+const ADSENSE_CLIENT = "ca-pub-1045531918718879";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -75,6 +77,7 @@ export const metadata: Metadata = {
     shortcut: "/favicon.ico",
     apple: "/apple-icon.png",
   },
+  ...(isProd ? { other: { "google-adsense-account": ADSENSE_CLIENT } } : {}),
 };
 
 export default function RootLayout({
@@ -122,6 +125,15 @@ export default function RootLayout({
             },
           ]}
         />
+        {isProd && (
+          <Script
+            id="google-adsense"
+            async
+            strategy="afterInteractive"
+            crossOrigin="anonymous"
+            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+          />
+        )}
         <LoadingBar />
         <ScrollToTop />
         <div className="flex w-full">
