@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.8.0...v1.9.0) (2026-09-21)
+
+
+### Features
+
+* add Google AdSense integration and update project images ([8ce3ab7](https://github.com/SouravShrestha/me-cbsdev/commit/8ce3ab7f943234076aa7ab19cc7e5055af10b0e5))
+* add Google AdSense integration and update project images ([5748149](https://github.com/SouravShrestha/me-cbsdev/commit/5748149435a2f46f9b1ac670a986d4f5b3a63265))
+
 ## [1.8.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.7.0...v1.8.0) (2026-08-03)
 
 
