@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.10.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.9.0...v1.10.0) (2026-10-17)
+
+
+### Features
+
+* add bole-capital project and update project showcase ([5962935](https://github.com/SouravShrestha/me-cbsdev/commit/59629350dc1e9f694f8e593e2427eae61496a8f1))
+* add bole-capital project and update project showcase ([e056ce9](https://github.com/SouravShrestha/me-cbsdev/commit/e056ce9ff986392da4cbc7b719e3161992518829))
+
 ## [1.9.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.8.0...v1.9.0) (2026-09-21)
 
 
