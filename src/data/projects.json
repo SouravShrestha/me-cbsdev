@@ -1,36 +1,36 @@
 [
   {
-    "slug": "e4",
-    "name": "e4",
-    "description": "A tiny, no-fuss chess board that thinks right alongside you. You play your side, it whispers a strong move whenever you want one.",
-    "internalLink": "/projects/e4",
+    "slug": "word-lock",
+    "name": "Word Lock",
+    "description": "A real-time 2-player word territory game where players take turns spelling words on a shared 5×5 letter grid - claiming tiles, flipping opponents' letters, and racing to dominate the board.",
+    "internalLink": "/projects/word-lock",
     "github": {
-      "href": "https://github.com/SouravShrestha/e4",
-      "label": "SouravShrestha/e4"
+      "href": "https://github.com/SouravShrestha/word-lock",
+      "label": "SouravShrestha/word-lock"
     },
     "externalLink": {
-      "href": "https://e4.cbsdev.me",
-      "label": "e4.cbsdev.me"
+      "href": "https://wordlock.cbsdev.me",
+      "label": "wordlock.cbsdev.me"
     },
     "badge": {
       "label": "Open Source",
       "type": "opensource"
     },
-    "logo": "e4",
+    "logo": "wordlock",
     "about": [
-      "A tiny, no-fuss chess board that thinks right alongside you. It's your personal coach. You play your side, it whispers a strong move whenever you want one - all in your browser, no sign-ups, no nonsense.",
-      "Named after chess's most famous opening move. (Yes, the pun is on purpose.)",
-      "The 'brain' is Stockfish, one of the strongest chess engines on the planet, shrunk down to run on a web page."
+      "Word Lock is a real-time 2-player word territory game where players compete on a shared 5×5 letter grid. Take turns spelling words to claim tiles, flip your opponent's letters, and dominate the board.",
+      "Every tile you use in a valid word becomes yours. Tiles your opponent owned flip to your colour. A tile surrounded on all sides by your own tiles is locked - your opponent can no longer steal it.",
+      "The game ends when every tile is claimed. Whoever owns the most tiles wins. Turns expire after 24 hours, keeping the game moving."
     ],
     "features": [
-      "Hints for your side, a little arrow points you toward a strong move whenever you're stuck",
-      "Follow any game, enter your opponent's moves yourself and keep getting nudges for your replies",
-      "A real engine in your pocket, Stockfish runs right inside your browser",
-      "Five difficulty levels, from \"gentle nudge\" to \"okay, it's actually good now\"",
-      "Rewind anytime, step back and forth through every move you've played",
-      "Themes & dark mode, make it feel like yours",
-      "Satisfying click-clacks, sounds for moves, captures, and checks",
-      "Phone or laptop, it just fits"
+      "Real-time 2-player word territory gameplay",
+      "Shared 5×5 letter grid with tile claiming mechanics",
+      "Flip opponent's tiles by spelling words through them",
+      "Lock tiles by surrounding them with your own",
+      "Turn-based gameplay with 24-hour turn expiration",
+      "Live game state synced via Supabase Realtime",
+      "Word validation with minimum 3-letter requirement",
+      "Winner determined by most tiles owned when board is full"
     ],
     "stack": [
       {
@@ -46,6 +46,10 @@
         "icon": "TailwindCSSIcon"
       },
       {
+        "name": "Supabase",
+        "icon": "SupabaseIcon"
+      },
+      {
         "name": "GitHub Actions",
         "icon": "GithubActionsIcon"
       },
@@ -57,34 +61,34 @@
     "platform": "Web"
   },
   {
-    "slug": "q-pilot",
-    "name": "Q Pilot",
-    "description": "An AI-powered question generator that creates interview questions from any topic or technology.",
-    "internalLink": "/projects/q-pilot",
-    "github": {
-      "href": "https://github.com/SouravShrestha/qpilot-app",
-      "label": "SouravShrestha/qpilot-app"
-    },
+    "slug": "bole-capital",
+    "name": "Bole Capital",
+    "description": "A website for an AMFI-registered mutual fund distributor in Dhanbad, with investor tools, educational resources, and lead capture delivered to Telegram in real time.",
+    "internalLink": "/projects/bole-capital",
     "externalLink": {
-      "href": "https://qpilot.cbsdev.me",
-      "label": "qpilot.cbsdev.me"
+      "href": "https://bolecapital.in",
+      "label": "bolecapital.in"
     },
     "badge": {
-      "label": "Open Source",
-      "type": "opensource"
+      "label": "Business Website",
+      "type": "premium"
     },
-    "logo": "qpilot",
+    "logo": "bolecapital",
     "about": [
-      "QPilot helps developers, interviewers, educators, and learners generate high-quality questions on demand.",
-      "Users can provide a technology or concepts and instantly receive tailored questions with varying difficulty levels.",
-      "Built to streamline interview preparation, QPilot removes the manual effort of researching and writing questions."
+      "Bole Capital is the website for an AMFI-registered mutual fund distributor based in Dhanbad, built to explain services clearly and make it easy for investors to get in touch.",
+      "It covers mutual funds, portfolio reviews, goal-based investing, PMS, SIF, and insurance, alongside a SIP calculator, goal planner, FAQ, and glossary to help visitors make sense of investing.",
+      "Enquiries from the portfolio review and contact forms are validated, rate-limited, and forwarded straight to Telegram. No submissions are stored, and regulatory disclosures are kept in one place."
     ],
     "features": [
-      "AI-powered question generation",
-      "Generate questions from topics",
-      "Multiple difficulty levels",
-      "Favorites and organize questions",
-      "Dark and light theme support"
+      "Service pages for mutual funds, portfolio review, goal-based investing, PMS, SIF, and insurance",
+      "SIP calculator and goal planner with downloadable PDF reports",
+      "FAQ and investor glossary",
+      "Portfolio review and contact forms delivered to Telegram in real time",
+      "Origin checks, per-IP rate limiting, and honeypot spam protection on forms",
+      "No database, form submissions are never stored",
+      "Centralised regulatory disclosures, policy pages, and investor links",
+      "SEO-friendly structure with JSON-LD, sitemap, and security headers",
+      "Statically prerendered pages with multi-environment CI/CD"
     ],
     "stack": [
       {
@@ -96,8 +100,8 @@
         "icon": "TypescriptIcon"
       },
       {
-        "name": "JSON",
-        "icon": "JsonIcon"
+        "name": "Tailwind CSS",
+        "icon": "TailwindCSSIcon"
       },
       {
         "name": "GitHub Actions",
@@ -176,6 +180,123 @@
     "platform": "Web"
   },
   {
+    "slug": "e4",
+    "name": "e4",
+    "description": "A tiny, no-fuss chess board that thinks right alongside you. You play your side, it whispers a strong move whenever you want one.",
+    "internalLink": "/projects/e4",
+    "github": {
+      "href": "https://github.com/SouravShrestha/e4",
+      "label": "SouravShrestha/e4"
+    },
+    "externalLink": {
+      "href": "https://e4.cbsdev.me",
+      "label": "e4.cbsdev.me"
+    },
+    "badge": {
+      "label": "Open Source",
+      "type": "opensource"
+    },
+    "logo": "e4",
+    "about": [
+      "A tiny, no-fuss chess board that thinks right alongside you. It's your personal coach. You play your side, it whispers a strong move whenever you want one - all in your browser, no sign-ups, no nonsense.",
+      "Named after chess's most famous opening move. (Yes, the pun is on purpose.)",
+      "The 'brain' is Stockfish, one of the strongest chess engines on the planet, shrunk down to run on a web page."
+    ],
+    "features": [
+      "Hints for your side, a little arrow points you toward a strong move whenever you're stuck",
+      "Follow any game, enter your opponent's moves yourself and keep getting nudges for your replies",
+      "A real engine in your pocket, Stockfish runs right inside your browser",
+      "Five difficulty levels, from \"gentle nudge\" to \"okay, it's actually good now\"",
+      "Rewind anytime, step back and forth through every move you've played",
+      "Themes & dark mode, make it feel like yours",
+      "Satisfying click-clacks, sounds for moves, captures, and checks",
+      "Phone or laptop, it just fits"
+    ],
+    "stack": [
+      {
+        "name": "Next.js",
+        "icon": "NextjsIcon"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypescriptIcon"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "TailwindCSSIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "icon": "CloudflarePagesIcon"
+      }
+    ],
+    "platform": "Web"
+  },
+  {
+    "slug": "kriva-pictures",
+    "name": "Kriva Pictures",
+    "description": "A photography business website showcasing visual stories, galleries, and creative work.",
+    "internalLink": "/projects/kriva-pictures",
+    "externalLink": {
+      "href": "https://www.krivapictures.com.au",
+      "label": "krivapictures.com.au"
+    },
+    "github": {
+      "href": "https://github.com/SouravShrestha/kriva-pictures",
+      "label": "SouravShrestha/kriva-pictures"
+    },
+    "badge": {
+      "label": "Business Website",
+      "type": "premium"
+    },
+    "logo": "krivapictures",
+    "about": [
+      "Kriva Pictures is a professional photography website built to showcase portfolios, galleries, and visual storytelling.",
+      "The platform provides a modern and responsive browsing experience across desktop and mobile devices.",
+      "It is optimized for fast image delivery and streamlined content management using Cloudinary."
+    ],
+    "features": [
+      "Photography portfolio showcase",
+      "Responsive gallery experience",
+      "Cloudinary-powered image management",
+      "SEO-friendly architecture",
+      "Multi-environment deployment workflow",
+      "Automated CI/CD pipelines",
+      "Optimized image delivery"
+    ],
+    "stack": [
+      {
+        "name": "Next.js",
+        "icon": "NextjsIcon"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypescriptIcon"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "TailwindCSSIcon"
+      },
+      {
+        "name": "Cloudinary",
+        "icon": "CloudinaryIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      },
+      {
+        "name": "Cloudflare Pages",
+        "icon": "CloudflarePagesIcon"
+      }
+    ],
+    "platform": "Web"
+  },
+  {
     "slug": "chain",
     "name": "Chain",
     "description": "A real-time 2-player word dueling game where players pick letters, form word chains, and race against a timer.",
@@ -239,37 +360,34 @@
     "platform": "Web"
   },
   {
-    "slug": "word-lock",
-    "name": "Word Lock",
-    "description": "A real-time 2-player word territory game where players take turns spelling words on a shared 5×5 letter grid - claiming tiles, flipping opponents' letters, and racing to dominate the board.",
-    "internalLink": "/projects/word-lock",
+    "slug": "q-pilot",
+    "name": "Q Pilot",
+    "description": "An AI-powered question generator that creates interview questions from any topic or technology.",
+    "internalLink": "/projects/q-pilot",
     "github": {
-      "href": "https://github.com/SouravShrestha/word-lock",
-      "label": "SouravShrestha/word-lock"
+      "href": "https://github.com/SouravShrestha/qpilot-app",
+      "label": "SouravShrestha/qpilot-app"
     },
     "externalLink": {
-      "href": "https://wordlock.cbsdev.me",
-      "label": "wordlock.cbsdev.me"
+      "href": "https://qpilot.cbsdev.me",
+      "label": "qpilot.cbsdev.me"
     },
     "badge": {
       "label": "Open Source",
       "type": "opensource"
     },
-    "logo": "wordlock",
+    "logo": "qpilot",
     "about": [
-      "Word Lock is a real-time 2-player word territory game where players compete on a shared 5×5 letter grid. Take turns spelling words to claim tiles, flip your opponent's letters, and dominate the board.",
-      "Every tile you use in a valid word becomes yours. Tiles your opponent owned flip to your colour. A tile surrounded on all sides by your own tiles is locked - your opponent can no longer steal it.",
-      "The game ends when every tile is claimed. Whoever owns the most tiles wins. Turns expire after 24 hours, keeping the game moving."
+      "QPilot helps developers, interviewers, educators, and learners generate high-quality questions on demand.",
+      "Users can provide a technology or concepts and instantly receive tailored questions with varying difficulty levels.",
+      "Built to streamline interview preparation, QPilot removes the manual effort of researching and writing questions."
     ],
     "features": [
-      "Real-time 2-player word territory gameplay",
-      "Shared 5×5 letter grid with tile claiming mechanics",
-      "Flip opponent's tiles by spelling words through them",
-      "Lock tiles by surrounding them with your own",
-      "Turn-based gameplay with 24-hour turn expiration",
-      "Live game state synced via Supabase Realtime",
-      "Word validation with minimum 3-letter requirement",
-      "Winner determined by most tiles owned when board is full"
+      "AI-powered question generation",
+      "Generate questions from topics",
+      "Multiple difficulty levels",
+      "Favorites and organize questions",
+      "Dark and light theme support"
     ],
     "stack": [
       {
@@ -281,72 +399,8 @@
         "icon": "TypescriptIcon"
       },
       {
-        "name": "Tailwind CSS",
-        "icon": "TailwindCSSIcon"
-      },
-      {
-        "name": "Supabase",
-        "icon": "SupabaseIcon"
-      },
-      {
-        "name": "GitHub Actions",
-        "icon": "GithubActionsIcon"
-      },
-      {
-        "name": "Cloudflare Pages",
-        "icon": "CloudflarePagesIcon"
-      }
-    ],
-    "platform": "Web"
-  },
-  {
-    "slug": "kriva-pictures",
-    "name": "Kriva Pictures",
-    "description": "A photography business website showcasing visual stories, galleries, and creative work.",
-    "internalLink": "/projects/kriva-pictures",
-    "externalLink": {
-      "href": "https://www.krivapictures.com.au",
-      "label": "krivapictures.com.au"
-    },
-    "github": {
-      "href": "https://github.com/SouravShrestha/kriva-pictures",
-      "label": "SouravShrestha/kriva-pictures"
-    },
-    "badge": {
-      "label": "Business Website",
-      "type": "premium"
-    },
-    "logo": "krivapictures",
-    "about": [
-      "Kriva Pictures is a professional photography website built to showcase portfolios, galleries, and visual storytelling.",
-      "The platform provides a modern and responsive browsing experience across desktop and mobile devices.",
-      "It is optimized for fast image delivery and streamlined content management using Cloudinary."
-    ],
-    "features": [
-      "Photography portfolio showcase",
-      "Responsive gallery experience",
-      "Cloudinary-powered image management",
-      "SEO-friendly architecture",
-      "Multi-environment deployment workflow",
-      "Automated CI/CD pipelines",
-      "Optimized image delivery"
-    ],
-    "stack": [
-      {
-        "name": "Next.js",
-        "icon": "NextjsIcon"
-      },
-      {
-        "name": "TypeScript",
-        "icon": "TypescriptIcon"
-      },
-      {
-        "name": "Tailwind CSS",
-        "icon": "TailwindCSSIcon"
-      },
-      {
-        "name": "Cloudinary",
-        "icon": "CloudinaryIcon"
+        "name": "JSON",
+        "icon": "JsonIcon"
       },
       {
         "name": "GitHub Actions",

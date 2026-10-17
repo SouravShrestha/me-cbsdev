@@ -61,7 +61,7 @@ export default async function Work() {
         </ol>
         <a
           className="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-full"
-          href="https://www.icloud.com/iclouddrive/01dRgeVVa3AdFJROvZztVnD0A#SouravShrestha-Resume"
+          href="https://drive.google.com/file/d/1KJy8eV9GWEx7stLg6dsai1DglND_hmQ0/view?usp=drive_link"
         >
           Download CV
           <ArrowDownIcon className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50" />
