@@ -36,12 +36,12 @@ export default function Hero() {
                 </a>
                 {", "}
                 <a
-                  href="https://e4.cbsdev.me"
+                  href="https://bolecapital.in"
                   target="_blank"
                   rel="noreferrer"
                   className="font-semibold text-zinc-900 hover:underline dark:text-zinc-100"
                 >
-                  e4!
+                  bole-capital
                 </a>
                 , and other cool{" "}
                 <Link

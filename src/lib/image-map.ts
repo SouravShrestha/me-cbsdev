@@ -1,5 +1,6 @@
 import type { StaticImageData } from "next/image";
 import australia from "@/images/australia.webp";
+import bolecapital from "@/images/bole-capital.png";
 import chain from "@/images/chain.png";
 import dotnet from "@/images/dotnet.png";
 import e4 from "@/images/e4.webp";
@@ -21,6 +22,7 @@ import wordlock from "@/images/word-lock.png";
  */
 export const imageMap: Record<string, StaticImageData> = {
   australia,
+  bolecapital,
   chain,
   dotnet,
   e4,
