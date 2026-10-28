@@ -1,5 +1,65 @@
 [
   {
+    "slug": "kinwoo",
+    "name": "Kinwoo",
+    "description": "A shared-home app for housemates to manage shared lists, expenses, bills, and tasks in one place. Everything shared. Nothing forgotten.",
+    "internalLink": "/projects/kinwoo",
+    "externalLink": {
+      "href": "https://www.kinwoo.in",
+      "label": "kinwoo.in"
+    },
+    "badge": {
+      "label": "Business Project",
+      "type": "premium"
+    },
+    "logo": "kinwoo",
+    "about": [
+      "Kinwoo helps the people in a shared home keep track of what the home needs. You create or join a house, then work with your housemates on shared lists, expenses, bills, and tasks.",
+      "Everything that happens in a house shows up in an activity feed, so it's always clear who bought what, who paid whom, and what's still pending.",
+      "It runs as an installable web app (PWA) with offline support and push notifications, backed by a mobile app for Android."
+    ],
+    "features": [
+      "Create a house and invite housemates with a link or a 6-character code",
+      "Shared lists and items, with private lists visible only to their owner",
+      "Shared expenses with balances, settle-up, and recorded payments",
+      "Bills and tasks for everything the house needs to get done",
+      "Activity feed and notifications for every change in the house",
+      "Admin and member roles, with member removal and leaving a house",
+      "Email OTP and Google sign-in, with profile avatars",
+      "Installable PWA with offline support and push notifications",
+      "Row-level security in the database, so only housemates can see house data",
+      "In-app feedback delivered to Telegram",
+      "Multi-environment CI/CD with test and production deployments"
+    ],
+    "stack": [
+      {
+        "name": "Next.js",
+        "icon": "NextjsIcon"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "TypescriptIcon"
+      },
+      {
+        "name": "Tailwind CSS",
+        "icon": "TailwindCSSIcon"
+      },
+      {
+        "name": "Supabase",
+        "icon": "SupabaseIcon"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "GithubActionsIcon"
+      },
+      {
+        "name": "Cloudflare Workers",
+        "icon": "CloudflarePagesIcon"
+      }
+    ],
+    "platform": "Web & Android"
+  },
+  {
     "slug": "word-lock",
     "name": "Word Lock",
     "description": "A real-time 2-player word territory game where players take turns spelling words on a shared 5×5 letter grid - claiming tiles, flipping opponents' letters, and racing to dominate the board.",
@@ -244,10 +304,6 @@
     "externalLink": {
       "href": "https://www.krivapictures.com.au",
       "label": "krivapictures.com.au"
-    },
-    "github": {
-      "href": "https://github.com/SouravShrestha/kriva-pictures",
-      "label": "SouravShrestha/kriva-pictures"
     },
     "badge": {
       "label": "Business Website",
