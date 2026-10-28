@@ -27,21 +27,21 @@ export default function Hero() {
                 <br />
                 I&apos;m building{" "}
                 <a
+                  href="https://www.kinwoo.in"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="font-semibold text-zinc-900 hover:underline dark:text-zinc-100"
+                >
+                  kinwoo
+                </a>
+                {", "}
+                <a
                   href="https://wordlock.cbsdev.me"
                   target="_blank"
                   rel="noreferrer"
                   className="font-semibold text-zinc-900 hover:underline dark:text-zinc-100"
                 >
                   word-lock
-                </a>
-                {", "}
-                <a
-                  href="https://bolecapital.in"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="font-semibold text-zinc-900 hover:underline dark:text-zinc-100"
-                >
-                  bole-capital
                 </a>
                 , and other cool{" "}
                 <Link

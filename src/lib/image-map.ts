@@ -5,6 +5,7 @@ import chain from "@/images/chain.png";
 import dotnet from "@/images/dotnet.png";
 import e4 from "@/images/e4.webp";
 import india from "@/images/india.webp";
+import kinwoo from "@/images/kinwoo.png";
 import krivapictures from "@/images/krivapictures.png";
 import nepal from "@/images/nepal.webp";
 import qnaguru from "@/images/qnaguru.png";
@@ -27,6 +28,7 @@ export const imageMap: Record<string, StaticImageData> = {
   dotnet,
   e4,
   india,
+  kinwoo,
   krivapictures,
   nepal,
   qnaguru,
