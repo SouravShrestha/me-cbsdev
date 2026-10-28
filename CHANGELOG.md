@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.11.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.10.0...v1.11.0) (2026-10-28)
+
+
+### Features
+
+* **projects:** add kinwoo project and update project showcase ([3c66618](https://github.com/SouravShrestha/me-cbsdev/commit/3c66618f8f7169ef734487f0633718c9a48cd254))
+* **projects:** add kinwoo project and update project showcase ([5397561](https://github.com/SouravShrestha/me-cbsdev/commit/5397561de841f7a958282e5102e4dca9878a17bd))
+
 ## [1.10.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.9.0...v1.10.0) (2026-10-17)
 
 
