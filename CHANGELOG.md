@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.12.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.11.0...v1.12.0) (2026-11-03)
+
+
+### Features
+
+* **seo:** canonicalize on www, add robots, structured data, module docs ([01ca88e](https://github.com/SouravShrestha/me-cbsdev/commit/01ca88e19e1ab638cda77ee46db709c661db060b))
+* **seo:** canonicalize on www, structured data, module docs ([aa4a174](https://github.com/SouravShrestha/me-cbsdev/commit/aa4a17416586f0fdb72c2ae62d99a25388e31673))
+
 ## [1.11.0](https://github.com/SouravShrestha/me-cbsdev/compare/v1.10.0...v1.11.0) (2026-10-28)
 
 
