@@ -2,6 +2,7 @@
   {
     "slug": "kinwoo",
     "name": "Kinwoo",
+    "tagline": "Shared Home App for Housemates",
     "description": "A shared-home app for housemates to manage shared lists, expenses, bills, and tasks in one place. Everything shared. Nothing forgotten.",
     "internalLink": "/projects/kinwoo",
     "externalLink": {
@@ -62,6 +63,7 @@
   {
     "slug": "word-lock",
     "name": "Word Lock",
+    "tagline": "2-Player Word Territory Game",
     "description": "A real-time 2-player word territory game where players take turns spelling words on a shared 5×5 letter grid - claiming tiles, flipping opponents' letters, and racing to dominate the board.",
     "internalLink": "/projects/word-lock",
     "github": {
@@ -123,6 +125,7 @@
   {
     "slug": "bole-capital",
     "name": "Bole Capital",
+    "tagline": "Mutual Fund Distributor Website",
     "description": "A website for an AMFI-registered mutual fund distributor in Dhanbad, with investor tools, educational resources, and lead capture delivered to Telegram in real time.",
     "internalLink": "/projects/bole-capital",
     "externalLink": {
@@ -177,6 +180,7 @@
   {
     "slug": "we-track",
     "name": "We Track",
+    "tagline": "Self-Hosted Video Course Tracker",
     "description": "A self-hosted learning platform for tracking progress across locally stored video courses.",
     "internalLink": "/projects/we-track",
     "github": {
@@ -242,6 +246,7 @@
   {
     "slug": "e4",
     "name": "e4",
+    "tagline": "Chess Board with Move Hints",
     "description": "A tiny, no-fuss chess board that thinks right alongside you. You play your side, it whispers a strong move whenever you want one.",
     "internalLink": "/projects/e4",
     "github": {
@@ -299,6 +304,7 @@
   {
     "slug": "kriva-pictures",
     "name": "Kriva Pictures",
+    "tagline": "Photography Portfolio Website",
     "description": "A photography business website showcasing visual stories, galleries, and creative work.",
     "internalLink": "/projects/kriva-pictures",
     "externalLink": {
@@ -355,6 +361,7 @@
   {
     "slug": "chain",
     "name": "Chain",
+    "tagline": "Real-Time 2-Player Word Game",
     "description": "A real-time 2-player word dueling game where players pick letters, form word chains, and race against a timer.",
     "internalLink": "/projects/chain",
     "github": {
@@ -418,6 +425,7 @@
   {
     "slug": "q-pilot",
     "name": "Q Pilot",
+    "tagline": "AI Interview Question Generator",
     "description": "An AI-powered question generator that creates interview questions from any topic or technology.",
     "internalLink": "/projects/q-pilot",
     "github": {

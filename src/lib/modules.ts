@@ -15,6 +15,8 @@ export type Module = {
   npm: { href: string; label: string };
   github?: { href: string; label: string };
   publishedAt: string;
+  /** README rendered (and sanitized) by GitHub; empty when unavailable. */
+  readmeHtml: string;
 };
 
 type NpmSearchObject = {
@@ -36,6 +38,21 @@ type NpmPackageMeta = {
   bin?: Record<string, string>;
   license?: string;
 };
+
+// GitHub renders and sanitizes the README for us, so no markdown dependency.
+// ponytail: unauthenticated API is 60 req/h; fine with the 1h cache below.
+async function fetchReadmeHtml(repoUrl?: string): Promise<string> {
+  const repo = repoUrl?.match(/github\.com\/([^/]+\/[^/#?]+)/)?.[1];
+  if (!repo) return "";
+  try {
+    const res = await fetch(`https://api.github.com/repos/${repo}/readme`, {
+      headers: { Accept: "application/vnd.github.html+json" },
+    });
+    return res.ok ? await res.text() : "";
+  } catch {
+    return "";
+  }
+}
 
 async function fetchModules(): Promise<Module[]> {
   const searchRes = await fetch(
@@ -60,6 +77,7 @@ async function fetchModules(): Promise<Module[]> {
         ?.replace("git+", "")
         .replace(/\.git$/, "");
       const repoLabel = repoUrl?.replace("https://github.com/", "");
+      const readmeHtml = await fetchReadmeHtml(repoUrl);
 
       return {
         slug,
@@ -80,6 +98,7 @@ async function fetchModules(): Promise<Module[]> {
             ? { href: repoUrl, label: repoLabel }
             : undefined,
         publishedAt: pkg.date,
+        readmeHtml,
       } satisfies Module;
     }),
   );

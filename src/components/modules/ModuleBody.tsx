@@ -77,6 +77,16 @@ export default function ModuleBody({ pkg }: { pkg: Module }) {
         </dl>
       </section>
 
+      {pkg.readmeHtml && (
+        <section>
+          <SectionTitle>Documentation</SectionTitle>
+          <div
+            className="readme mt-4"
+            dangerouslySetInnerHTML={{ __html: pkg.readmeHtml }}
+          />
+        </section>
+      )}
+
       <section className="flex flex-wrap gap-4">
         <a
           href={pkg.npm.href}

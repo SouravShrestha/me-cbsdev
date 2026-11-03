@@ -8,13 +8,13 @@ export const metadata: Metadata = {
   description:
     "Open-source npm packages published by Sourav Shrestha — small, focused utilities designed to drop into any JavaScript or TypeScript project.",
   alternates: {
-    canonical: "https://cbsdev.me/modules",
+    canonical: "/modules",
   },
   openGraph: {
     title: "Modules - Sourav Shrestha",
     description:
       "Open-source npm packages published by Sourav Shrestha — small, focused utilities designed to drop into any JavaScript or TypeScript project.",
-    url: "https://cbsdev.me/modules",
+    url: "/modules",
   },
 };
 

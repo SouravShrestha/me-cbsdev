@@ -4,6 +4,8 @@ import { Metadata } from "next";
 import BackToModules from "@/components/modules/BackToModules";
 import ModuleHeader from "@/components/modules/ModuleHeader";
 import ModuleBody from "@/components/modules/ModuleBody";
+import JsonLd from "@/components/seo/JsonLd";
+import { SITE_URL, PERSON_ID } from "@/lib/site";
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -31,12 +33,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     title: `${mod.name} | Modules`,
     description: mod.description,
     alternates: {
-      canonical: `https://cbsdev.me/modules/${mod.slug}`,
+      canonical: `/modules/${mod.slug}`,
     },
     openGraph: {
       title: `${mod.name} | Modules - Sourav Shrestha`,
       description: mod.description,
-      url: `https://cbsdev.me/modules/${mod.slug}`,
+      url: `/modules/${mod.slug}`,
     },
   };
 }
@@ -57,6 +59,31 @@ export default async function ModulePage({ params }: Props) {
           <div className="mx-auto max-w-2xl lg:max-w-5xl">
             <div className="xl:relative">
               <div className="mx-auto max-w-2xl">
+                <JsonLd
+                  data={{
+                    "@context": "https://schema.org",
+                    "@type": "SoftwareSourceCode",
+                    name: mod.name,
+                    description: mod.description,
+                    url: `${SITE_URL}/modules/${mod.slug}`,
+                    keywords: mod.keywords.join(", "),
+                    license: mod.license,
+                    programmingLanguage: "JavaScript",
+                    ...(mod.github && { codeRepository: mod.github.href }),
+                    author: { "@id": PERSON_ID, "@type": "Person", name: "Sourav Shrestha" },
+                  }}
+                />
+                <JsonLd
+                  data={{
+                    "@context": "https://schema.org",
+                    "@type": "BreadcrumbList",
+                    itemListElement: [
+                      { "@type": "ListItem", position: 1, name: "Home", item: SITE_URL },
+                      { "@type": "ListItem", position: 2, name: "Modules", item: `${SITE_URL}/modules` },
+                      { "@type": "ListItem", position: 3, name: mod.name, item: `${SITE_URL}/modules/${mod.slug}` },
+                    ],
+                  }}
+                />
                 <BackToModules />
                 <ModuleHeader pkg={mod} />
                 <ModuleBody pkg={mod} />

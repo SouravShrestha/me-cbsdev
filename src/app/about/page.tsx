@@ -6,25 +6,40 @@ import OffScreen from "@/components/about/OffScreen";
 import Contact from "@/components/about/Contact";
 import Skills from "@/components/about/Skills";
 import Certifications from "@/components/about/Certifications";
+import JsonLd from "@/components/seo/JsonLd";
+import { SITE_URL, PERSON_ID } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
   description:
     "Learn more about Sourav Shrestha (CBS) — a Specialist Programmer with 7+ years of experience, based in Bangalore. Passionate about building scalable apps and clean architectures.",
   alternates: {
-    canonical: "https://cbsdev.me/about",
+    canonical: "/about",
   },
   openGraph: {
     title: "About - Sourav Shrestha",
     description:
       "Learn more about Sourav Shrestha (CBS) — a Specialist Programmer with 7+ years of experience, based in Bangalore.",
-    url: "https://cbsdev.me/about",
+    url: "/about",
   },
 };
 
 export default function AboutPage() {
   return (
     <div className="sm:px-8 mt-16 sm:mt-32">
+      <JsonLd
+        data={{
+          "@context": "https://schema.org",
+          "@type": "ProfilePage",
+          url: `${SITE_URL}/about`,
+          mainEntity: {
+            "@id": PERSON_ID,
+            "@type": "Person",
+            name: "Sourav Shrestha",
+            image: `${SITE_URL}${portraitImage.src}`,
+          },
+        }}
+      />
       <div className="mx-auto w-full max-w-7xl lg:px-8">
         <div className="relative px-4 sm:px-8 lg:px-12">
           <div className="mx-auto max-w-2xl lg:max-w-5xl">
