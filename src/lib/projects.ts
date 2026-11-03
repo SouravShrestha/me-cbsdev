@@ -8,6 +8,8 @@ import { loadContent } from "@/lib/content";
 export type Project = {
   slug: string;
   name: string;
+  /** Short "what it is" phrase used in the page title. */
+  tagline?: string;
   description: string;
   internalLink: string;
   externalLink?: { href: string; label: string };

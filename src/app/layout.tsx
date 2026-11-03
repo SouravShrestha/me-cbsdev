@@ -9,6 +9,8 @@ import ScrollToTop from "@/components/layout/ScrollToTop";
 import LoadingBar from "@/components/layout/LoadingBar";
 import BackgroundDecor from "@/components/layout/BackgroundDecor";
 import JsonLd from "@/components/seo/JsonLd";
+import { SITE_URL as BASE_URL, PERSON_ID } from "@/lib/site";
+import portraitImage from "@/images/me.webp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,7 +22,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const BASE_URL = "https://www.cbsdev.me";
 const isProd = process.env.NEXT_PUBLIC_ENV === "PROD";
 const ADSENSE_CLIENT = "ca-pub-1045531918718879";
 
@@ -106,15 +107,30 @@ export default function RootLayout({
             {
               "@context": "https://schema.org",
               "@type": "Person",
+              "@id": PERSON_ID,
               name: "Sourav Shrestha",
-              alternateName: "CBS",
+              alternateName: ["CBS", "cbsdev"],
               url: BASE_URL,
+              image: `${BASE_URL}${portraitImage.src}`,
               jobTitle: "Specialist Programmer",
+              description:
+                "Specialist Programmer in Bangalore with 7+ years of experience in .NET, RPA, and web applications.",
+              worksFor: { "@type": "Organization", name: "Infosys" },
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "Bangalore",
+                addressRegion: "KA",
+                addressCountry: "IN",
+              },
               email: "souravshrestha@cbsdev.me",
               sameAs: [
-                "https://github.com/souravshrestha",
-                "https://linkedin.com/in/sourav-shrestha-10992710b",
+                "https://github.com/SouravShrestha",
+                "https://www.linkedin.com/in/souravshrestha",
                 "https://www.instagram.com/sourav__shrestha",
+                "https://souravshrestha.hashnode.dev",
+                "https://www.npmjs.com/~cbsdev",
+                "https://www.credly.com/users/sourav-shrestha",
+                "https://www.chess.com/member/Starboy_CBS",
               ],
             },
             {
@@ -122,6 +138,7 @@ export default function RootLayout({
               "@type": "WebSite",
               name: "Sourav Shrestha — CBS",
               url: BASE_URL,
+              author: { "@id": PERSON_ID },
             },
           ]}
         />

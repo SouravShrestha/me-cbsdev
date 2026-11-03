@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   description:
     "Writing by Sourav Shrestha on software development, architecture, side projects, and developer productivity.",
   alternates: {
-    canonical: "https://cbsdev.me/articles",
+    canonical: "/articles",
   },
   openGraph: {
     title: "Articles - Sourav Shrestha",
     description:
       "Writing by Sourav Shrestha on software development, architecture, side projects, and developer productivity.",
-    url: "https://cbsdev.me/articles",
+    url: "/articles",
   },
 };
 

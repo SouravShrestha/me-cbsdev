@@ -21,9 +21,10 @@ export default function Hero() {
                 </span>
               </h1>
               <p className="reveal reveal-d1 mt-6 text-base text-zinc-600 dark:text-zinc-400 leading-7">
-                I&apos;m a Specialist Programmer passionate about building
-                scalable applications, clean architectures, and great user
-                experiences.
+                I&apos;m a Specialist Programmer based in Bangalore with 7+
+                years of experience in .NET, RPA, and web development,
+                passionate about building scalable applications, clean
+                architectures, and great user experiences.
                 <br />
                 I&apos;m building{" "}
                 <a

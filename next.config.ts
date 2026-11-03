@@ -14,6 +14,17 @@ const nextConfig: NextConfig = {
     // sizing and build-time blur placeholders from the static imports.
     unoptimized: true,
   },
+  // One hostname for search: send cbsdev.me/* to www.cbsdev.me/* permanently.
+  async redirects() {
+    return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "cbsdev.me" }],
+        destination: "https://www.cbsdev.me/:path*",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

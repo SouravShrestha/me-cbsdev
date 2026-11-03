@@ -128,3 +128,21 @@ body {
     scroll-behavior: auto !important;
   }
 }
+
+/* GitHub-rendered README on module pages (no typography plugin installed). */
+.readme { @apply text-base leading-7 text-zinc-600 dark:text-zinc-400; }
+.readme > .markdown-body > .markdown-heading:first-child, .readme .anchor { display: none; }
+.readme h1, .readme h2 { @apply mt-10 mb-4 text-xl font-semibold text-zinc-800 dark:text-zinc-100; }
+.readme h3, .readme h4 { @apply mt-8 mb-3 text-base font-semibold text-zinc-800 dark:text-zinc-100; }
+.readme p, .readme ul, .readme ol, .readme pre, .readme table { @apply my-4; }
+.readme ul { @apply list-disc pl-6; }
+.readme ol { @apply list-decimal pl-6; }
+.readme li { @apply my-1; }
+.readme a { @apply text-accent underline underline-offset-2; }
+.readme code { @apply rounded bg-zinc-100 px-1 py-0.5 font-mono text-sm text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200; }
+.readme pre { @apply overflow-x-auto rounded-lg bg-zinc-900 p-4 text-sm dark:bg-zinc-950; }
+.readme pre code { @apply bg-transparent p-0 text-zinc-200; }
+.readme table { @apply block overflow-x-auto text-sm; }
+.readme th, .readme td { @apply border border-zinc-200 px-3 py-2 text-left dark:border-zinc-700; }
+.readme hr { @apply my-8 border-zinc-100 dark:border-zinc-700/40; }
+.readme img { @apply inline max-w-full; }
